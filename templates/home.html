@@ -1,0 +1,101 @@
+<!-- home -->
+<div id="home">
+	<div id="homeimg"></div>
+	
+	<div ng-app="myApp" id="projects">
+		<h2>Projects</h2>
+
+		<div ng-repeat="project in project7">
+			<div class="projects">
+				<div class="projdescription">
+					<h3><br><br><br><br>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>	
+				<div class="projimg">
+					<img src="{{project.img}}" class="preview"/>
+				</div>			
+			</div>
+		</div>
+
+		<div ng-repeat="project in project6">
+			<div class="projects">
+				<div class="projdescription2">
+					<h3>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>
+				<div class="projimg2">
+					<img src="{{project.img}}" class="preview"/>
+				</div>
+
+			<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>
+
+				<div class="projimg">
+					<img src="{{project.img}}" class="preview"/>
+				</div>
+			</div>
+		</div>
+
+		<div ng-repeat="project in project4">
+			<div class="projects">
+				<div class="projdescription2">
+					<h3><br><br><br><br>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>	
+				<div class="projimg2">
+					<img src="{{project.img}}" class="preview"/>
+				</div>			
+			</div>
+		</div>
+
+		<div ng-repeat="project in project3">
+			<div class="projects">
+				<div class="projdescription">
+					<h3><br><br><br>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>
+
+				<div class="projimg">
+					<img src="{{project.img}}" class="preview"/>
+				</div>
+
+			</div>
+		</div>
+
+		<div ng-repeat="project in project2">
+			<div class="projects">
+				<div class="projdescription2">
+					<h3><br><br><br>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>
+
+				<div class="projimg2">
+					<img src="{{project.img}}" class="preview"/>
+				</div>
+
+			</div>
+		</div>
+
+		<div ng-repeat="project in project1">
+			<div class="projects">
+				<div class="projdescription">
+					<h3><br><br><br>{{project.title}}</h3>
+						<p>{{project.description}}</p>
+						<p><a href="{{project.link}}" target="_blank">see live page</a></p>
+				</div>
+
+				<div class="projimg">
+					<img src="{{project.img}}" class="preview"/>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
